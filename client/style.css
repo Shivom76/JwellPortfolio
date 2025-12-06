@@ -29,6 +29,9 @@ nav{
     color: white;
     align-items: center;
     height: max-content;
+    position: fixed;
+    top:0;
+    z-index:1000;
 }
 
 li{
@@ -81,6 +84,7 @@ li{
     /* background-color: red; */
     height:28rem;
     margin:3rem 1.6rem;
+    margin-top:6rem;
     padding:0;
 }
 
